@@ -1,0 +1,66 @@
+
+
+body {
+    background-color: black;
+}
+/* Contains the title at the top of the page */
+#header {
+    border-style: groove;
+    border-color: darkorange;
+    border-width: 1em;
+    text-align: center;
+    background-color: darksalmon;
+    margin: 4px;
+    font-size: 3em;
+}
+
+/* Structures font fize */
+.introWrap {
+    font-size: 15pt;
+    background-color: black;
+    color: white;
+}
+
+/* Sets margin for all figures and display type */
+figure {
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Aligns images contained in figure elements */
+figure img {
+    vertical-align: top;
+}
+
+/* Formats captions */
+figure figcaption {
+    text-align: center;
+    font-style: italic;
+    border: solid 2px;
+}
+
+/* Formats display */
+#bouldering {
+    display: flex;
+}
+
+/* Formats display */
+#sport {
+    display: flex;
+}
+
+/* Formats display */
+#trad {
+    display: flex;
+}
+
+/* Formats all sub wrappers */
+.sub {
+    margin-top: 10px;
+    font-style: oblique;
+    color: white;
+    line-height: 25pt;
+    background-color: black;
+}
+
+
